@@ -1,0 +1,27 @@
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+}
+
+ul > li {
+  margin-right: 10px;
+}
+
+ul > li > a {
+  text-decoration: none;
+  background-color: rgb(86, 164, 167);
+  padding: 10px;
+  border-radius: 3px;
+  color: white;
+}
+
+ul > li > a:hover {
+  background-color: rgb(86, 104, 200);
+  color: white;
+}
